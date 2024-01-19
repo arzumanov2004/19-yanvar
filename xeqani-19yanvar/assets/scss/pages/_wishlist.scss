@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#prodacts{
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #tableDiv{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        .myBox{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-left: 10px;
+            img{
+                width: 100px;
+                height: 60px;
+            }
+            td{
+                border: 0.4px solid rgb(184, 184, 184);
+                width: 25%;
+                min-height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
